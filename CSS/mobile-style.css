@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: 'Raleway';
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.full{
+    color: #0065FC;
+}
+
+.empty{
+    color: #cccccc;
+}
+
+.star-margin{
+    margin-top: 47px;
+}
+/* ------------------------------- Header -----------------------------------*/
+
+.topheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topheader img{
+    width: 100px;
+    height: 50px;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.topright{
+    display: flex;
+    justify-content: center;
+}
+
+.topright a{
+    width: 100%;
+    box-sizing: content-box;
+    padding: 10px 0;
+    font-size: 15px;
+    border-bottom: 3px #F2F2F2 solid;
+    text-align: center;
+}
+
+.topright a:hover{
+    color: #0065FC;
+    border-bottom : 3px #0065FC solid;
+}
+
+h1{
+    font-size: 22px;
+    margin: 30px 20px 0 20px;
+}
+
+h1 + p{
+    font-size: 15px;
+    margin: 12px 20px 30px 20px;
+}
+
+form{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+input{
+    border: #F2F2F2 1px solid;
+    text-indent: 10px;
+    width: 235px;
+}
+
+.icon{
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    background: #F2F2F2;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-radius: 12px 0 0 12px;
+}
+
+form input::placeholder{
+    color: black;
+    opacity: 1;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+form input{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button-mobile{
+    font-size: 16px;
+    background-color: #0065FC;
+    position: relative;
+    right: 15px;
+    border: none;
+    color: white;
+    width: 50px;
+    font-weight: 600;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.button-desktop{
+    display: none;
+}
+
+.filtre{
+    margin: 35px 20px 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+.filtre i{
+    color: #0065FC;
+}
+
+.filtre ul{
+    display: flex;
+    gap: 12px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.filtre ul li{
+    display: flex;
+}
+
+.filtre ul li a{
+    border: #d3d3d3 solid 2px;
+    border-radius: 99px 99px 99px 99px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.filtre div{
+    width: 45px;
+    height: 45px;
+    background: #DEEBFF;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 43px;
+    border-radius: 99px 99px 99px 99px;
+    position: relative;
+    right: 3px;
+}
+
+.filtre ul p{
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+.info-i{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 10px 12px;
+}
+
+.info-i i{
+    display: block;
+    color: #002cf1;
+    border: 2px #dddddd solid;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.info-i p{
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+/* ----------------------------- Hébergement à Marseille -----------------------------------*/
+
+.one{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+.title-card{
+    padding: 12px 0;
+    background-color: #f2f2f2;
+}
+
+.card-row{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-hebergement{
+    box-shadow: 5px 5px 15px #999;
+    background-color: white;
+    width: 92%;
+    max-width: 470px;
+    min-width: 327.5px;
+    border-radius: 20px;
+}
+
+.card-row a{
+    display: block;
+}
+
+.card-row .card-image{
+    margin: auto;
+    padding-top: 1.5%;
+    height: 115px;
+    text-align: center;
+}
+
+.card-row .card-image img{
+    width: 97%;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+h2{
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.card-body{
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+
+.card-name h3{
+    font-size: 16px;
+    margin: 3px 0 5px 0;
+}
+
+.card-price p{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+.card-stars{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+.title-card > p{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.hebergement{
+    flex: 2 1 auto;
+}
+
+.populaires{
+    flex: 1 1 auto;
+}
+
+/* ----------------------------- Les plus populaires -----------------------------------*/
+
+.title-star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.title-star i{
+    font-size: 20px;
+}
+
+.card-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-column a{
+    display: flex;
+}
+
+.card-populaire{
+    background-color: white;
+    box-shadow: 5px 5px 15px #999;
+    width: 86%;
+    max-width: 451px;
+    min-width: 306.15px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.card-column .card-image{
+    padding-top: 5.5px;
+    padding-left: 5.5px;
+}
+
+.card-column .card-image img{
+    width: 130px;
+    height: 129px;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+/*----------------------------activités à Marseille-------------------------------*/
+
+.activite{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    gap: 25px;
+    margin: auto;
+    align-items: center;
+}
+
+.item-activite{
+    box-shadow: 5px 5px 15px #999;
+    width: 100%;
+    height: 201.567px;
+    max-width: 470px;
+    min-width: 327.5px;
+    border-radius: 20px;
+}
+
+.item-activite img{
+    object-fit: cover;
+    width: 100%;
+    height: 151.567px;
+    border-radius: 20px 20px 0 0;
+}
+
+.activite h3{
+    font-size: 16px;
+    margin: 12px 0 16px 15px;
+}
+
+/*---------------------------------------------Footer---------------------------------*/
+
+footer{
+    margin-top: 50px;
+    background: #F2F2F2;
+    height: 484px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.item-footer li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer h4{
+    font-size: 17px;
+}
+
+.item-footer{
+    margin-left: 20px;
+}
